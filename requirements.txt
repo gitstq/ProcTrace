@@ -1,0 +1,21 @@
+# ProcTrace 依赖列表
+# Process Tracing Tool Dependencies
+
+# 核心依赖
+psutil>=5.9.0
+
+# Web可视化
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# 可选依赖（用于高级功能）
+# yara-python>=4.3.0  # 恶意软件检测（需单独安装YARA库）
+
+# 开发依赖
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+
+# 打包依赖
+pyinstaller>=5.13.0

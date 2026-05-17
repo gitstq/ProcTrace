@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include proctrace/web/templates *.html
+recursive-include proctrace/web/static *.*
